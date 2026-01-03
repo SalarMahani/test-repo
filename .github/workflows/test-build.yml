@@ -16,3 +16,5 @@ jobs:
         uses: actions/setup-node@v3
       - run: npm ci
       - run: npm test
+      - name: running build command
+      - run: npm run build
