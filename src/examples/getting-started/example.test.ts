@@ -1,11 +1,5 @@
 import { it, expect, test } from 'vitest';
 
-it('should work', () => {
-  // expect.assertions(1);
-  // expect.hasAssertions();
-  // expect(true).toBe(true);
-});
-
 test('works with "test" as well', () => {
   expect(false).not.toBe(true);
 });
